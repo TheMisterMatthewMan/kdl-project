@@ -4,7 +4,7 @@ export default function Home() {
 
   const container = {
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'column' as 'column',
     alignItems: 'center',
     maxWidth: '900px',
     marginLeft: 'auto',
@@ -14,14 +14,14 @@ export default function Home() {
 
   const wrapper = {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'row' as 'row',
     justifyContent: 'center',
     alignItems: 'center'
   }
 
   const subContainer = {
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'column' as 'column',
     justifyContent: 'center',
     padding: '1rem'
   }

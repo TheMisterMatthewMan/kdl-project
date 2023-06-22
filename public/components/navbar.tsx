@@ -3,7 +3,7 @@ import Link from 'next/link'
 export default function Navbar() {
 const container = {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'row' as 'row',
     justifyContent: 'space-between',
     aligntItems: 'center',
     padding: '1rem',
