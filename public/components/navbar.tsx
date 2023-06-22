@@ -8,7 +8,7 @@ const container = {
     aligntItems: 'center',
     padding: '1rem',
     backgroundColor: '#242424',
-    color: 'white'
+    color: 'white',
 }
 
 const links = {
