@@ -8,8 +8,9 @@ export default function Home() {
           <img height='200px' width='200px' src="/profile.webp"></img>
         </div>
         <div className="flex flex-col justify-center p-7">
-          <h1 className="font-extrabold">Hi, my name is Matthew</h1>
-          <p>I am a student.</p>
+          <h1 className="text-7xl font-extrabold">Hi, my name is Matthew</h1>
+          <p>I am a student at EIS.</p>
+          <p>I am taking web design classes at Kiddee Lab.</p>
         </div>
       </div>
     </div>
